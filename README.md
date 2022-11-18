@@ -1,5 +1,16 @@
 # Next.js and Auth0 Example
 
+## Key observations
+
+- Multiple users can log in simultaneously
+- Dashboard provides info about users login, logout, how many concurrently etc
+- SSR seems to be the best option because it relies on the server to render the page rather than the clients computer
+- This was too easy to set up
+
+---
+
+# Template boilerplate guide below
+
 This example shows how you can use `@auth0/nextjs-auth` to easily add authentication support to your Next.js application. It tries to cover a few topics:
 
 - Signing in
